@@ -783,7 +783,8 @@
             // Helper for generating column width
             calcColWidth() {
                 const colWidth = (this.containerWidth - (this.margin[0] * (this.cols + 1))) / this.cols;
-               // console.log("### COLS=" + this.cols + " COL WIDTH=" + colWidth + " MARGIN " + this.margin[0]);
+                // console.log("### COLS=" + this.cols + " COL WIDTH=" + colWidth + " MARGIN " + this.margin[0]);
+                if (colWidth<0) return 0;
                 return colWidth;
             },
             // This can either be called:
