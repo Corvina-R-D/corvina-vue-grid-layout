@@ -1,6 +1,7 @@
 {
   "name": "@corvina/vue-grid-layout",
-  "version": "2.4.0-corvina-1",
+  "version": "2.4.0-corvina-3",
+  "private": false,
   "description": "A draggable and resizable grid layout, as a Vue component.",
   "keywords": [
     "grid",
@@ -14,8 +15,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbaysolutions/vue-grid-layout.git"
+    "url": "https://github.com/Corvina-R-D/corvina-vue-grid-layout"
   },
+  "license": "MIT",
   "author": "Gustavo Santos (JBay Solutions) <gustavo.santos@jbaysolutions.com> (http://www.jbaysolutions.com)",
   "homepage": "https://github.com/jbaysolutions/vue-grid-layout",
   "main": "dist/vue-grid-layout.common.js",
