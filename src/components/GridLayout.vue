@@ -359,6 +359,7 @@
                 }
 
                 // Move the element to the dragged location.
+                // eslint-disable-next-line
                 this.layout = moveElement(this.layout, l, x, y, true, this.preventCollision);
 
                 if (this.restoreOnDrag) {
