@@ -1,6 +1,6 @@
 {
   "name": "@corvina/vue-grid-layout",
-  "version": "2.4.0-corvina-4",
+  "version": "2.4.0-corvina-5",
   "private": false,
   "description": "A draggable and resizable grid layout, as a Vue component.",
   "keywords": [
